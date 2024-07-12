@@ -37,5 +37,18 @@ function StopWatch() {
     }
 }
 
+//dynamic deletion
+
+function Shape(radius) {
+    this.radius = radius;
+
+    this.draw = function () {
+        console.log(radius);
+    }
+}
 
 
+//dynamic binding
+Shape.prototype.print = function () {
+    console.log("Shape form is not defined.")
+}
