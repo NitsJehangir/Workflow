@@ -13,7 +13,7 @@
 > [!TIP]
 > git clone Url 
 > example for this repository is: git clone https://github.com/NitsJehangir/Workflow.git
-> you will see this file in your folder (Workflow folder) after cloning is successfull
+> you will see this file in your folder (Workflow folder) after cloning is successfull.
 
 * Go to your working repository.
 * Settings >> Manage Access >> Invite Callobrators to repository.
