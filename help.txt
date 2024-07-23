@@ -1,0 +1,7 @@
+============= Preqrequites Plugins for VSCODE  ================
+HTML CSS Support (ecmel)
+CSS Peek Pranay (Prakash)
+Highlight Matching Tag (vincaslt)
+TODO Highlight (Wayou Liu)
+
+

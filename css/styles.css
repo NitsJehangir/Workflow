@@ -1,0 +1,56 @@
+:root {
+    --color-primary: #2584ff;
+    --color-secondary: #00d9ff;
+    --color-accent: #ff3400;
+    --color-headings: #1b0760;
+    --color-body: #918ca4;
+}
+
+
+/* TYPOGRAPHY */
+html {
+    font-size: 62.5%;
+    font-family: 'Inter', Arial, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+body {
+    font-size: 3rem;
+    color: var(--color-body)
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--color-headings);
+}
+
+p {
+    margin-top: 0;
+}
+
+@media screen and (min-width:1200px) {
+    body {
+        font-size: 2rem;
+    }
+}
+
+/* LINKS */
+.linkArrow {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--color-primary)
+}
+
+.linkArrow::after {
+    content: "-->";
+    margin-left: 6px;
+    transition: margin 0.12s;
+}
+
+.linkArrow:hover::after {
+    margin-left: 10px;
+}

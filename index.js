@@ -47,7 +47,6 @@ function Shape(radius) {
     }
 }
 
-
 //dynamic binding
 Shape.prototype.print = function () {
     console.log("Shape form is not defined.")
